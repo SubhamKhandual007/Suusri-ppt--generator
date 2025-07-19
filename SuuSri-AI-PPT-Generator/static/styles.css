@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.main-container {
+    padding-bottom: 80px; /* Space for fixed footer */
+}
+
+header {
+    background: linear-gradient(90deg, #0909d3, #4b06d5);
+    border-bottom: 4px solid #d58409;
+}
+
+.card {
+    border-radius: 15px;
+    background: #09e7eb;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #b006bf;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #5407d8;
+    box-shadow: 0 0 5px rgba(186, 6, 209, 0.5);
+}
+
+.btn-primary {
+    background-color: #4a0aed;
+    border-color: #1d0fda;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0f3b82;
+    border-color: #0f3b82;
+}
+
+.btn-success {
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+footer {
+    background: #212529;
+    border-top: 2px solid #ff9800;
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
+#timer {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
